@@ -1,28 +1,56 @@
 /* style.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+  color: #333;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
-  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 header {
-  background-color: #0055aa;
-  color: white;
-  padding: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: #0055aa;
+  margin-bottom: 0.3rem;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  color: #888;
 }
 
 .about, .contact {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+  margin-bottom: 2rem;
 }
 
-h1, h2 {
-  margin-bottom: 0.5rem;
+h2 {
+  color: #0055aa;
+  border-bottom: 2px solid #0055aa;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
 }
 
 a {
@@ -30,10 +58,13 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #e9ecef;
-  margin-top: 2rem;
   font-size: 0.9rem;
+  color: #777;
+  margin-top: 2rem;
 }
